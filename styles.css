@@ -1,0 +1,91 @@
+/* Body and headings */
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background: #f4f6fb;
+}
+
+h1, h2 {
+  color: #2c3e90;
+}
+
+/* Flexbox layout for Profile and Career Objective */
+.flex-container {
+  display: flex;
+  gap: 20px;              /* space between columns */
+  align-items: stretch;    /* make columns same height */
+  margin-bottom: 20px;
+}
+
+/* Profile & Career columns */
+.profile-left, .career-right {
+  flex: 1;                 /* equal width */
+  padding: 20px;
+  border: 1px solid #ccc;
+  background: white;
+}
+
+/* Profile column text alignment */
+.profile-left {
+  text-align: center;
+}
+
+.profile-pic {
+  width: 100px;           /* desired width */
+  height: auto;           /* height adjusts automatically */
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Center vertical line */
+.center-line {
+  width: 2px;
+  background: #2c3e90;
+}
+
+/* Sections with top border */
+.section {
+  border-top: 2px solid #2c3e90;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* Right floated text for dates or marks */
+.right {
+  float: right;
+}
+
+/* Paragraphs formatting */
+p {
+  text-align: justify;
+  line-height: 1.7;
+}
+
+/* Lists styling */
+ul, ol {
+  margin: 5px 0 15px 20px;
+}
+
+/* Responsive: stack profile & career vertically on small screens */
+@media (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+}
+/* Profile info table */
+.profile-left table {
+  margin: 0 auto;          /* center table horizontally */
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.profile-left table td {
+  padding: 5px 10px;       /* spacing between cells */
+}
+
+.profile-left table td:first-child {
+  font-weight: bold;       /* make labels bold */
+  width: 80px;             /* fixed width for labels */
+}
