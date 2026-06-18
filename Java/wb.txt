@@ -1,0 +1,35 @@
+Web server examples write name and difference
+
+| Feature       | Apache           | Nginx              | IIS          | Tomcat         |
+| ------------- | ---------------- | ------------------ | ------------ | -------------- |
+| Platform      | Linux, Windows   | Linux, Windows     | Windows Only | Cross-platform |
+| Performance   | Good             | Very Fast          | Good         | Java-specific  |
+| Configuration | Easy             | Moderate           | GUI-based    | Java Config    |
+| Best For      | General websites | High traffic sites | .NET apps    | Java apps      |
+| Open Source   | Yes              | Yes                | No           | Yes            |
+
+Real-World Examples:
+
+1. Apache
+WordPress websites
+College websites
+Small to medium business sites
+
+2. Nginx
+Netflix
+Airbnb
+High-traffic web applications
+
+3. IIS
+ASP.NET applications
+Enterprise Windows applications
+
+4. Tomcat
+Java Spring Boot applications
+Banking and enterprise Java systems
+
+Apache → Flexible and widely used web server.
+Nginx → High-performance web server and load balancer.
+IIS → Microsoft's web server for Windows applications.
+Tomcat → Web server and servlet container for Java applications.
+Node.js Server → JavaScript runtime used to create web servers.
